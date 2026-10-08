@@ -1,0 +1,4 @@
+gradio
+airllm
+torch
+pypdf

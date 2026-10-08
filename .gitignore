@@ -1,0 +1,7 @@
+# Created by venv; see https://docs.python.org/3/library/venv.html
+*
+
+# Project files (kept despite the venv-wide ignore above)
+!.gitignore
+!airllm_chat_app.py
+!requirements-airllm.txt

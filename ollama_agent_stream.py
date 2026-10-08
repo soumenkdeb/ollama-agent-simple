@@ -53,7 +53,7 @@ def generate_stream(conversation, model=MODEL):
         "stream": True,
     }
 
-    with requests.post(url, json=payload, stream=True, timeout=600) as resp:
+    with requests.post(url, json=payload, stream=True, timeout=1800) as resp:
         resp.raise_for_status()
         full_text = ""
         for line in resp.iter_lines(decode_unicode=True):
